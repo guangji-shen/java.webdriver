@@ -20,5 +20,6 @@ public class BrokenImageTest extends TestBase {
         HomePage page = pageFactory(HomePage.class);
         page.brokenImage()
                 .brokenImage();
+        System.out.println("test");
     }
 }
